@@ -1,32 +1,100 @@
-/* Base */
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#0b1d23;background:#f8fbfc;line-height:1.6}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
 
-/* Layout */
-.container{max-width:1100px;margin:0 auto;padding:0 16px}
-header{background:#0e7a86;color:#fff}
-nav{display:flex;align-items:center;gap:16px;padding:12px 0}
-nav a{color:#fff;text-decoration:none;font-weight:600}
-nav a:hover{text-decoration:underline}
-.logo{height:48px;width:auto;margin-right:8px;border-radius:6px;background:#fff}
-main{padding:24px 0}
-footer{background:#0e7a86;color:#fff;padding:16px 0;margin-top:40px}
+header {
+  background-color: #00796b;
+  padding: 10px 0;
+}
 
-/* Hero image */
-.hero{margin:0 auto 20px auto;max-width:1100px;padding:0}
-.hero-img{width:100%;max-height:420px;object-fit:cover;border-radius:12px;display:block}
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/* Sections */
-.section{max-width:1100px;margin:24px auto;padding:0 16px}
-.section h1,.section h2{margin:0 0 12px 0;line-height:1.25}
+nav img {
+  height: 50px;
+}
 
-/* About watermark */
-.about.watermark{position:relative;overflow:hidden;background:#fff;border-radius:12px;padding:20px}
-.about.watermark::after{
-  content:"";
-  position:absolute;inset:0;
-  background:url('logo.png.jpg') no-repeat center;
-  background-size:240px auto;
-  opacity:.06;pointer-events:none
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Hero image – full image without cropping */
+.hero {
+  margin: 0 auto 20px;
+  max-width: 1100px;
+  padding: 0;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;           /* Oranı koru */
+  display: block;
+  border-radius: 12px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  color: #00796b;
+}
+
+footer {
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
 }
