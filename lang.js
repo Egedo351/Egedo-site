@@ -8,7 +8,14 @@
       "nav.sport": "Sport",
 
       "health.title": "Health Tourism",
-      "health.lead": "We connect you with trusted clinics and experienced doctors for a smooth, well-organized journey—from travel planning to on-site assistance and follow-up. Our network focuses on quality, safety, and transparent communication."
+      "health.lead": "We connect you with trusted clinics and experienced doctors for a smooth, well-organized journey—from travel planning to on-site assistance and follow-up. Our network focuses on quality, safety, and transparent communication.",
+
+      "contact.title": "Contact Us",
+      "contact.desc": "Send us a message and we will get back to you shortly.",
+      "contact.name": "Name",
+      "contact.email": "Email",
+      "contact.message": "Message",
+      "contact.send": "Send"
     },
     tr: {
       "nav.about": "Hakkımızda",
@@ -18,7 +25,14 @@
       "nav.sport": "Spor",
 
       "health.title": "Sağlık Turizmi",
-      "health.lead": "Seyahatin planlanmasından yerinde refakat ve takip süreçlerine kadar, güvenilir klinikler ve deneyimli doktorlarla sorunsuz ve iyi organize edilmiş bir yolculuk sunuyoruz. Ağımız; kalite, güvenlik ve şeffaf iletişime odaklanır."
+      "health.lead": "Seyahatin planlanmasından yerinde refakat ve takip süreçlerine kadar, güvenilir klinikler ve deneyimli doktorlarla sorunsuz ve iyi organize edilmiş bir yolculuk sunuyoruz. Ağımız; kalite, güvenlik ve şeffaf iletişime odaklanır.",
+
+      "contact.title": "İletişim",
+      "contact.desc": "Bize mesaj gönderin; en kısa sürede dönüş yapalım.",
+      "contact.name": "Ad Soyad",
+      "contact.email": "E-posta",
+      "contact.message": "Mesaj",
+      "contact.send": "Gönder"
     }
   };
 
