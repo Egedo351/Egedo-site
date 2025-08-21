@@ -9,14 +9,20 @@
 <body>
 <header>
   <div class="container">
-    <nav>
-      <img src="logo.png.jpg" alt="Egedo logo" class="logo">
-      <a href="index.html">About Us</a>
-      <a href="health.html">Health</a>
-      <a href="holidays.html">Travels & Holidays</a>
-      <a href="gastronomy.html">Gastronomy</a>
-      <a href="sport.html">Sport</a>
-    </nav>
+   <nav>
+  <img src="logo.png.jpg" alt="Egedo logo" class="logo">
+  <a href="index.html" data-i18n="nav.about">About Us</a>
+  <a href="health.html" data-i18n="nav.health">Health</a>
+  <a href="holidays.html" data-i18n="nav.holidays">Travels & Holidays</a>
+  <a href="gastronomy.html" data-i18n="nav.gastronomy">Gastronomy</a>
+  <a href="sport.html" data-i18n="nav.sport">Sport</a>
+
+  <!-- Dil butonları -->
+  <span class="lang-switch" style="margin-left:12px; display:inline-flex; gap:8px;">
+    <button type="button" class="lang-btn" data-lang="en" onclick="egedoSetLang('en')">EN</button>
+    <button type="button" class="lang-btn" data-lang="tr" onclick="egedoSetLang('tr')">TR</button>
+  </span>
+</nav>
   </div>
 </header>
 
@@ -39,5 +45,6 @@
     <small>© Egedo — All rights reserved.</small>
   </div>
 </footer>
+<script src="lang.js"></script>
 </body>
 </html>
